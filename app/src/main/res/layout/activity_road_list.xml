@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/activity_road_list_background"
+
+    tools:context=".feature.road_list.RoadListActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRoad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_road_list_padding"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/activity_road_list_layout_error"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/play_bold"
+            android:text="@string/activity_road_list_text_error"
+            android:textColor="@color/activity_road_list_color_error"
+            android:textSize="@dimen/activity_road_list_size_error" />
+
+        <Button
+            android:id="@+id/bRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/activity_road_list_color_button_retry"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/activity_road_list_margin_button_retry"
+            android:text="@string/activity_road_list_button_retry"
+            android:textSize="@dimen/activity_road_list_button_retry_size_text"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/progress_bar"
+        android:layout_height="@dimen/progress_bar"
+        />
+
+</RelativeLayout>

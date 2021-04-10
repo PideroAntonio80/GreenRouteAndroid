@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GreenRoute</string>
+    <string name="activity_road_list_text_error">Loading data failed</string>
+    <string name="activity_road_list_button_retry">RETRY</string>
+    <string name="detail_road_date">Building date:</string>
+    <string name="detail_road_length">Length:</string>
+    <string name="road_detail_toll_text">Toll:</string>
+    <string name="splash_title">GreenRoute</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+</resources>

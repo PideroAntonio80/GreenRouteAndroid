@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_road_list_size_error">25sp</dimen>
+    <dimen name="activity_road_list_margin_button_retry">8dp</dimen>
+    <dimen name="activity_road_list_button_retry_size_text">18sp</dimen>
+    <dimen name="progress_bar">80dp</dimen>
+    <dimen name="activity_road_list_padding">10dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_name_size">35sp</dimen>
+    <dimen name="card_size_date">20sp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="activity_road_detail_margin">8dp</dimen>
+    <dimen name="activity_road_detail_image_detail_height">400dp</dimen>
+    <dimen name="road_detail_name_size">45sp</dimen>
+    <dimen name="road_detail_date_size">20sp</dimen>
+    <dimen name="road_detail_margin_left">35dp</dimen>
+    <dimen name="road_detail_margin_left_parent">250dp</dimen>
+    <dimen name="splash_title_size">60sp</dimen>
+</resources>
