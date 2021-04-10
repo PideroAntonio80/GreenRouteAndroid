@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">GreenRoute</string>
     <string name="activity_road_list_text_error">Error al cargar datos</string>
-    <string name="activity_road_list_button_retry">RETRY</string>
+    <string name="activity_road_list_button_retry">REINTENTAR</string>
     <string name="detail_road_date">Fecha construccion:</string>
     <string name="detail_road_length">Longitud:</string>
     <string name="road_detail_toll_text">Peaje:</string>
